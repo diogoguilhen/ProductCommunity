@@ -1,101 +1,52 @@
+# HB Theme Template
 
-<h1 align=center>Geeky Hugo</h1> 
-<p align=center>Get Geeked out by Geeky, a personal Hugo blog theme that is fully responsive and super-fast.</p>
-<h2 align="center"><a target="_blank" href="https://demo.statichunt.com/geeky-hugo/" rel="nofollow">Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.statichunt.com%2Fgeeky-hugo%2F&form_factor=desktop">Page Speed (85%)</a> </h2>
+The starter theme template of [HB Framework](https://hbstack.dev/), live demo: https://theme.hbstack.dev/.
 
+## Documentations
 
-<p align=center>
-  <a href="https://github.com/gohugoio/hugo/releases/tag/v0.87" alt="Contributors">
-    <img src="https://img.shields.io/static/v1?label=min-HUGO-version&message=0.87&color=f00&logo=hugo" />
-  </a>
+| English | 简体中文 |
+| ------- | -------- |
+| [Prerequisites](https://hbstack.dev/en/docs/getting-started/prerequisites/) | [先决条件](https://hbstack.dev/zh-hans/docs/getting-started/prerequisites/) |
+| [Installation](https://hbstack.dev/en/docs/getting-started/installation/) | [安裝](https://hbstack.dev/zh-hans/docs/getting-started/installation/) |
+| [Configuration](https://hbstack.dev/en/docs/configuration/) | [配置](https://hbstack.dev/zh-hans/docs/configuration/) |
+| [Content](https://hbstack.dev/en/docs/content/) | [内容](https://hbstack.dev/zh-hans/docs/content/) |
+| [Deployment](https://hbstack.dev/en/docs/deployment/) | [部署](https://hbstack.dev/zh-hans/docs/deployment/) |
+| [Modules](https://hbstack.dev/en/docs/modules/) | [模块](https://hbstack.dev/zh-hans/docs/modules/) |
 
-  <a href="https://github.com/statichunt/geeky-hugo/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/statichunt/geeky-hugo" alt="license"></a>
+## Features
 
-  <img src="https://img.shields.io/github/languages/code-size/statichunt/geeky-hugo" alt="code size">
+- **Fast** and **SEO** friendly: [PageSpeed Insight](https://pagespeed.web.dev/analysis?url=https://theme.hbstack.dev/en/) scored perfect :100: in all four metrics on mobile and desktop.
+- **Multi-purpose**: blog, project documentations, digital garden, gallery, landing pages and so on.
+- **Responsive**: mobile first, built on top of Bootstrap v5.3.
+- :ice_cube: **Modular** and **flexible**: extend features via various modules.
+- :first_quarter_moon: **Dark mode**: light, dark or auto (follow system).
+- :mag: **Search**: powerful client side *fuzzy* search that allows *filtering* and *sorting* of results, as well as searching from all multilingual sites.
+- **PurgeCSS**: remove unused CSS.
+- :rocket: **PWA**:
+  - Installable: add site to home screen.
+  - Offline available: offline page and offline image.
+  - Allow precaching resources, such as CSS, JS and fonts.
+- **Advanced**:
+  - Custom SCSS [variables](https://github.com/hbstack/theme/blob/main/assets/hb/modules/custom/scss/variables.tmpl.scss) and [style](https://github.com/hbstack/theme/blob/main/assets/hb/modules/custom/scss/index.scss).
+  - Custom [JavaScript](https://github.com/hbstack/theme/blob/main/assets/hb/modules/custom/js/index.ts).
+  - Custom HTML markup:
+    - [Before the end of `<head>`](https://github.com/hbstack/theme/blob/main/layouts/partials/hugopress/modules/hb-custom/hooks/head-end.html)
+    - [Before the end of `<body>`](https://github.com/hbstack/theme/blob/main/layouts/partials/hugopress/modules/hb-custom/hooks/body-end.html)
+    - [Custom sidebar widget](https://github.com/hbstack/theme/blob/main/layouts/partials/hugopress/modules/hb-custom/hooks/hb-blog-sidebar.html)
+- :framed_picture: **Images Processing**: process images via URL query string and fragment, such as alignment, resizing, cropping and so on, friendly to Markdown.
+- :computer: **Code block panel**: expand toggle, code copy button, line number toggle and wrap toggle.
+- **Menus**: supports header menus and footer menus.
+- Related posts slide.
+- :framed_picture: Image viewer: zoom in/out image.
+- :card_index_dividers:	**Archives**: group by year and month.
+- :memo: **Multiple authors**: articles can be co-authored.
+- :globe_with_meridians: **Multilingual**.
+- :arrow_left: **RTL**: supports Right-to-Left languages.
+- :arrow_up: Back/Return to top button.
+- Social links: supports header and footer social links.
+- Content: supports KaTex (math), Mermaid (diagrams) and Bootstrap shortcodes.
+- ...
 
-  <a href="https://github.com/statichunt/geeky-hugo/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/statichunt/geeky-hugo" alt="contributors"></a>
+## Screenshot
 
-  <a href="https://twitter.com/intent/follow?screen_name=heyStatichunt">
-    <img src="https://img.shields.io/twitter/follow/heyStatichunt?style=social&logo=twitter"
-      alt="follow on Twitter"></a>
-</p>
-
----
-
-<p align="center">
- 
-![geeky-hugo-startup-theme](https://user-images.githubusercontent.com/17677384/140605658-0c68cf6c-d15a-4f0d-8e66-1060ce636d20.png)
-</p>
-
----
-## Key Features
-- Hugo module support
-- Google analytics, AdSense support
-- Image optimize  with hugo pipe
-- CSS and JS bundle with hugo pipe
-- Netlify settings predefine
-- Forestry cms pre-configured
-- Google font loads from webfont loader
-- Caching enable
-- Color and fonts variable in config file
-- Contact form Support
-- Search by fuse.js
-- Mailchimp integrate
-- GDPR consent enable
-- Google page speed optimized
-- Open graph meta tag
-- Twitter card meta tag
-
-
-## Local development
-
-```bash
-# clone the repository
-git clone git@github.com:statichunt/geeky-hugo.git
-
-# cd in the project directory
-$ cd geeky-hugo/exampleSite/
-
-# Start local dev server
-$ hugo server --themesDir ../..
-```
-Or Check out [Full Documentation](https://docs.gethugothemes.com/geeky/?ref=github).
-
-
-## Deployment and hosting
-
-[![Deploy to
-Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/statichunt/geeky-hugo)
-
-Follow the steps.
-
-<!-- reporting issue -->
-## Reporting Issues
-We use GitHub Issues as the official bug tracker for the geeky Template. Please Search [existing
-issues](https://github.com/statichunt/geeky-hugo/issues). Someone may have already reported the same problem.
-If your problem or idea has not been addressed yet, feel free to [open a new
-issue](https://github.com/statichunt/geeky-hugo/issues).
-
-<!-- ## geeky hugo theme Powered Websites
-
-View all the websites powered by geeky hugo theme [here](https://github.com/statichunt/geeky-hugo/wiki/All-Geeky-Hugo-Powered-Websites). Want to submit your own website powered by geeky hugo theme? You can submit it [here](https://github.com/statichunt/geeky-hugo/discussions/2). -->
-
-<!-- licence -->
-## License
-Copyright &copy; Designed and developed by [Statichunt](https://statichunt.com)
-
-**Code License:** Released under the [MIT](https://github.com/statichunt/geeky-hugo/blob/master/LICENSE) license.
-
-**Image license:** The images are only for demonstration purposes. They have their licenses. We don't have permission to
-share those images.
-
-<!-- resources -->
-## Special Thanks
-- [Bootstrap](https://getbootstrap.com)
-- [Jquery](https://jquery.com)
-- [Font Awesome Icons](https://fontawesome.com)
-- [Fuse Js](https://fusejs.io)
-- [Google Fonts](https://fonts.google.com/)
-- [All Contributors](https://github.com/statichunt/geeky-hugo/graphs/contributors)
+![Screenshot](https://raw.githubusercontent.com/hbstack/theme/main/images/screenshot.png)
