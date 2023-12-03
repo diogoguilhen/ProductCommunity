@@ -9,9 +9,8 @@ nav_icon:
   name: book
   color: indigo
 authors:
-  - razonyang
+  - diogoguilhen
 ---
-
 一个可用于博客和文档站点的快速、响应式和功能丰富的 Hugo 主题。
 
 ## Greeting
