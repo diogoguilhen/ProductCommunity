@@ -61,16 +61,18 @@ hb:
     giscus:
       repo: diogoguilhen/ProductCommunity
       repo_id: R_kgDOK1KI9g
+      category: Comments
       category_id: DIC_kwDOK1KI9s4Cbd5A
   docs:
     giscus:
       repo: diogoguilhen/ProductCommunity
       repo_id: R_kgDOK1KI9g
+      category: Comments
       category_id: DIC_kwDOK1KI9s4Cbd5A
   content_panel:
     repo:
       service: github # github or gitlab.
-      repo: hbstack/theme
+      repo: diogoguilhen/ProductCommunity
       branch: main
       # subpath: exampleSite
   # gallery:

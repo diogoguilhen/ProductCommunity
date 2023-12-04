@@ -10,9 +10,8 @@ categories:
 tags:
   - Featured Image
 authors:
-  - razonyang
+  - diogoguilhen
 ---
-
 The example post with an featured image.
 
 <!--more-->
