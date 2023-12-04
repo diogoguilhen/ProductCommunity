@@ -1,5 +1,5 @@
 ---
-title: HB Theme Template
+title: Product Community
 # menu:
 #   main:
 #     name: Home

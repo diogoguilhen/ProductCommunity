@@ -1,7 +1,7 @@
 ---
 title: "Tutorial"
 # linkTitle:
-date: 2023-03-31T11:47:31+08:00
+date: 2023-11-31T11:47:31+08:00
 draft: false
 description: 
 noindex: false
@@ -32,7 +32,7 @@ images:
 #         name: book
 #         color: '#e24d0e'
 authors:
-  - diogoguilhen 
+  - diogoguilhen
 ---
 A simple tutorial that offers samples and code snippets show how to create rich content, please refer to the [documentations](https://hbstack.dev/en/) for more usage.
 

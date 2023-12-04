@@ -1,6 +1,6 @@
 ---
 title: "Textures"
-date: 2023-01-01T16:16:05+08:00
+date: 2023-11-01T16:16:05+08:00
 resources:
   - src: 20230106000000.jpg
     params:
@@ -27,4 +27,3 @@ resources:
       author: Anni Roenkae
       source: Pexels
 ---
-

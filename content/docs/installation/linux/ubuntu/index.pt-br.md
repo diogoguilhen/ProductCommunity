@@ -1,5 +1,5 @@
 ---
-date: 2022-10-16T22:42:23+08:00
+date: 2023-11-16T22:42:23+08:00
 title: Install on Ubuntu
 linkTitle: Ubuntu
 series:
