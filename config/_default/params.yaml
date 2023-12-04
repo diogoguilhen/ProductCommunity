@@ -34,6 +34,7 @@ hb:
       profile:
         # title: Profile title other than site title.
         # description: Profile description other than site description.
+        avatar_size: 200
         company: Product Community
         location: São Paulo
         socials:

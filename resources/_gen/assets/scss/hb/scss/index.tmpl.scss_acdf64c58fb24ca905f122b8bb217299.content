@@ -10947,8 +10947,8 @@ html {
 /* TextWhitespace */
 /*! purgecss end ignore */
 .hb-blog-sidebar-profile-img {
-  height: 100px;
-  width: 100px; }
+  height: 200x150px;
+  width: 200x150px; }
 
 .hb-blog-sidebar-profile .hb-social:not(:hover) {
   --hb-link-color-rgb: var(--hb-body-color-rgb); }
