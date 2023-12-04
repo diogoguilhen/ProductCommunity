@@ -1,8 +1,8 @@
 baseURL: https://theme.hbstack.dev/
-title: HB Starter Theme Template
+title: Product Community
 # Copyright, the {year} is the placeholder of this year.
 copyright: "Copyright © 2022-{year} [Hugo Modules](https://hugomods.com/) and [HB Framework](https://hbstack.dev/). All Rights Reserved."
-defaultContentLanguage: en
+defaultContentLanguage: pt-br
 defaultContentLanguageInSubdir: true # disable this to remove the default language code from URL, i.e. /en/docs -> /docs.
 enableRobotsTXT: true
 timeout: 120s # images processing takes a long time, it's recommended to commit the resources folder for improve the build performance.
@@ -67,3 +67,4 @@ security:
       - CI$
       - PWD
 
+ 

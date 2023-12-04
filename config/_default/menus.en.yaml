@@ -69,6 +69,6 @@ main:
     weight: 16
     params:
       icon:
-        vendor: simple
-        name: mastodon
+        vendor: font-awesome-brands
+        name: x-twitter
       description: Follow us on Mastodon to get latest updates.

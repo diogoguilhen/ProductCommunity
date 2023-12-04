@@ -18,20 +18,20 @@ main:
         vendor: bs
         name: book
         className: text-primary
-      description: The documentations.
+      description: Documentações.
 
   - name: GitHub
-    parent: support
+    parent: suporte
     url: https://github.com/diogoguilhen/ProductCommunity
     weight: 11
     params:
       icon:
         vendor: fab
         name: github
-      description: The code repository.
+      description: Repositorio do código.
 
   - name: Discussion
-    parent: support
+    parent: suporte
     url: https://github.com/diogoguilhen/ProductCommunity/discussions
     weight: 12
     params:
@@ -39,36 +39,36 @@ main:
         vendor: font-awesome-regular
         name: comments
         color: green
-      description: Ask questions and share your ideas.
+      description: Faça uma pergunta ou compartilhe as suas ideias.
 
   - name: Bug Report
-    parent: support
-    url: https://github.com/orgs/hbstack/discussions/new?category=issues-and-bugs
+    parent: suporte
+    url: https://github.com/diogoguilhen/ProductCommunity/discussions/new?category=issues-and-bugs
     weight: 13
     params:
       icon:
         vendor: font-awesome-solid
         name: bug
         color: red
-      description: Tell us about a bug or issue.
+      description: Nos conte se encontrou um BUG.
 
   - name: Feature Request
-    parent: support
-    url: https://github.com/orgs/hbstack/discussions/new?category=ideas
+    parent: suporte
+    url: https://github.com/diogoguilhen/ProductCommunity/discussions/new?category=ideas
     weight: 14
     params:
       icon:
         vendor: font-awesome-regular
         name: lightbulb
         color: orange
-      description: Suggest new or updated features.
+      description: Sugestões de novas Features.
   
-  - name: Mastodon
-    parent: support
-    url: https://techhub.social/@hbstack
+  - name: X
+    parent: suporte
+    url: https://twitter.com/ProCommunity_
     weight: 16
     params:
       icon:
-        vendor: simple
-        name: mastodon
-      description: Follow us on Mastodon to get latest updates.
+        vendor: font-awesome-brands
+        name: x-twitter
+      description: Nos siga para mais informações e atualizações no Twitter.

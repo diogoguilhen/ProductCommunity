@@ -1,4 +1,4 @@
-description: The starter theme template of HB (Hugo Bootstrap) Framework.
+description: Comunidade dos Product Managers.
 
 hb:
   # override SASS variables, please replace the dash with underline, e.g. `list-group-color` should be `list_group_color`.
@@ -9,22 +9,22 @@ hb:
   # css_bundle_name: main # the CSS bundle name.
 
   header:
-    brand: HB # the brand name, leave it empty to use site's title.
-    logo_bg: '#712cf9' # logo background color, used by logo with transparent background.
+    brand: PC # the brand name, leave it empty to use site's title.
+    logo_bg: '#FFFFFF' # logo background color, used by logo with transparent background.
     # see https://hbstack.dev/en/docs/modules/socials/.
     socials:
-      github: hbstack
-      # twitter: razonyang
+      github: diogoguilhen
+      twitter: ProCommunity_
+      instagram: productcommunity_
       rss: true
-      mastodon: https://techhub.social/@hbstack
   footer:
     # see https://hbstack.dev/en/docs/modules/socials/.
     socials:
       _color: true # when false, remove the color of social icons.
-      github: hbstack
-      twitter: razonyang
+      github: diogoguilhen
+      twitter: ProCommunity_
+      instagram: productcommunity_
       rss: true
-      mastodon: https://techhub.social/@hbstack
   terms:
     # the paginate for categories, tags, series list pages.
     paginate: 12
@@ -34,11 +34,12 @@ hb:
       profile:
         # title: Profile title other than site title.
         # description: Profile description other than site description.
-        company: COMPANY
-        location: Earth
+        company: Product Community
+        location: São Paulo
         socials:
-          github: hbstack
-          mastodon: https://techhub.social/@hbstack
+          github: diogoguilhen
+          twitter: ProCommunity_
+          instagram: productcommunity_
           rss: true
       posts:
         recent_count: 5 # the number of recent posts.
@@ -47,7 +48,7 @@ hb:
         count: true # whether to show the number of posts associated to the item.
         limit: 10 # the maximum number of the item.
     paginate: 12 # paginate.
-    post_thumbnail_placeholder: HB THEME # the text of thumbnail placeholder, default to site title.
+    post_thumbnail_placeholder: Product Community # the text of thumbnail placeholder, default to site title.
     # post_thumbnail: false # whether to show the thumbnails.
     # post_date_format: ":date_long" # see https://gohugo.io/functions/dateformat/#datetime-formatting-layouts.
     home: # homepage settings.
@@ -58,14 +59,14 @@ hb:
         - blog
         - tutorials
     giscus:
-      repo: hbstack/theme
-      repo_id: R_kgDOJP3qtA
-      category_id: DIC_kwDOJP3qtM4CVavM
+      repo: diogoguilhen/ProductCommunity
+      repo_id: R_kgDOK1KI9g
+      category_id: DIC_kwDOK1KI9s4Cbd5A
   docs:
     giscus:
-      repo: hbstack/theme
-      repo_id: R_kgDOJP3qtA
-      category_id: DIC_kwDOJP3qtM4CVavM
+      repo: diogoguilhen/ProductCommunity
+      repo_id: R_kgDOK1KI9g
+      category_id: DIC_kwDOK1KI9s4Cbd5A
   content_panel:
     repo:
       service: github # github or gitlab.
