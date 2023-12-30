@@ -1,5 +1,5 @@
 ---
-title: Archives
+title: Postagens
 menu:
   main:
     parent: blog

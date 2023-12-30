@@ -1,5 +1,5 @@
 ---
-title: Categories
+title: Categorias
 menu:
   main:
     parent: blog

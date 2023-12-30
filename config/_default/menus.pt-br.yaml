@@ -9,17 +9,6 @@ main:
         vendor: font-awesome-solid
         name: headset
 
-  - name: Documentações
-    parent: suporte
-    url: https://hbstack.dev/
-    weight: 1
-    params:
-      icon:
-        vendor: bs
-        name: book
-        className: text-primary
-      description: Documentações.
-
   - name: GitHub
     parent: suporte
     url: https://github.com/diogoguilhen/ProductCommunity
