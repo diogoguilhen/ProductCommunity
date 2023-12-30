@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: Artigos
 menu:
   main:
     identifier: blog

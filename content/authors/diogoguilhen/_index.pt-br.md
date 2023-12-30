@@ -6,4 +6,5 @@ images:
 socials:
   github: diogoguilhen
   email: mailto:contato@diogoguilhen.com.br
+  linkedin: https://www.linkedin.com/in/diogoguilhen/
 ---

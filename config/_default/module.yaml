@@ -5,18 +5,18 @@
 # The order of module is very important, precedence from top to bottom.
 imports:
   # gallery modules.
-  - path: github.com/hbstack/gallery
-  - path: github.com/hbstack/gallery/modules/breadcrumb
+ # - path: github.com/hbstack/gallery
+ # - path: github.com/hbstack/gallery/modules/breadcrumb
 
   # syntax highlighting, see https://hbstack.dev/en/docs/modules/syntax-highlighting/.
   # - path: github.com/hbstack/syntax-highlighting/styles/github-dark
 
   # icons modules
   - path: github.com/hugomods/icons/vendors/font-awesome
-  # - path: github.com/hugomods/icons/vendors/mdi
-  # - path: github.com/hugomods/icons/vendors/simple-icons
-  # - path: github.com/hugomods/icons/vendors/tabler
-  # - path: github.com/hugomods/icons/vendors/feather
+  - path: github.com/hugomods/icons/vendors/mdi
+  - path: github.com/hugomods/icons/vendors/simple-icons
+  - path: github.com/hugomods/icons/vendors/tabler
+  - path: github.com/hugomods/icons/vendors/feather
 
   # header themes
   # - path: github.com/hbstack/header/themes/pills
@@ -29,7 +29,7 @@ imports:
   - path: github.com/hbstack/blog/modules/sidebar/taxonomies
 
   # blog comments engine
-  - path: github.com/hugomods/giscus
+  #- path: github.com/hugomods/giscus
   - path: github.com/hbstack/blog/modules/giscus
   # - path: github.com/hbstack/blog/modules/disqus
   # - path: github.com/hbstack/blog/modules/utterances
@@ -41,7 +41,7 @@ imports:
   - path: github.com/hbstack/blog/modules/content-panel
 
   # docs comments engine
-  - path: github.com/hugomods/giscus
+  #- path: github.com/hugomods/giscus
   - path: github.com/hbstack/docs/modules/giscus
   # - path: github.com/hbstack/docs/modules/utterances
   # - path: github.com/hbstack/docs/modules/disqus

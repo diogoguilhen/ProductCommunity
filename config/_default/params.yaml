@@ -75,6 +75,15 @@ hb:
       repo_id: R_kgDOK1KI9g
       category: Comments
       category_id: DIC_kwDOK1KI9s4Cbd5A
+  instrucoesiniciais:
+    giscus:
+      languagesMapping:
+      # the key is the site language code, the value is the Giscus supported language code.
+        pt-br: pt
+      repo: diogoguilhen/ProductCommunity
+      repo_id: R_kgDOK1KI9g
+      category: Comments
+      category_id: DIC_kwDOK1KI9s4Cbd5A
   content_panel:
     repo:
       service: github # github or gitlab.
