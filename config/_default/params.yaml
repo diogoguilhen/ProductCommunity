@@ -28,6 +28,10 @@ hb:
     # the paginate for categories, tags, series list pages.
     paginate: 12
   blog:
+    utterances:
+      repo: diogoguilhen/ProductCommunity
+      mapping: pathname 
+      endpoint: https://utteranc.es/
     full_width: false # when true, the blog layout takes full width.
     sidebar:
       profile:
@@ -52,38 +56,34 @@ hb:
     # post_thumbnail: false # whether to show the thumbnails.
     # post_date_format: ":date_long" # see https://gohugo.io/functions/dateformat/#datetime-formatting-layouts.
     home: # homepage settings.
+      utterances:
+        repo: diogoguilhen/ProductCommunity
+        mapping: pathname 
+        endpoint: https://utteranc.es/	
       # taxonomies: false # remove the taxonomies stat from the homepage.
       featured_posts: 5 # the number of the featured posts.
       main_sections: # leave it empty to include all regular pages.
         - docs
         - blog
         - tutorials
-    giscus:
-      languagesMapping:
-      # the key is the site language code, the value is the Giscus supported language code.
-        pt-br: pt
-      repo: diogoguilhen/ProductCommunity
-      repo_id: R_kgDOK1KI9g
-      category: Comments
-      category_id: DIC_kwDOK1KI9s4Cbd5A
   docs:
-    giscus:
-      languagesMapping:
-      # the key is the site language code, the value is the Giscus supported language code.
-        pt-br: pt
+    utterances:
       repo: diogoguilhen/ProductCommunity
-      repo_id: R_kgDOK1KI9g
-      category: Comments
-      category_id: DIC_kwDOK1KI9s4Cbd5A
-  instrucoesiniciais:
-    giscus:
-      languagesMapping:
-      # the key is the site language code, the value is the Giscus supported language code.
-        pt-br: pt
-      repo: diogoguilhen/ProductCommunity
-      repo_id: R_kgDOK1KI9g
-      category: Comments
-      category_id: DIC_kwDOK1KI9s4Cbd5A
+      mapping: url 
+      endpoint: https://utteranc.es/
+    instrucoesiniciais:
+      utterances:
+        repo: diogoguilhen/ProductCommunity
+        mapping: url 
+        endpoint: https://utteranc.es/	
+      #giscus:
+    #  languagesMapping:
+    #  # the key is the site language code, the value is the Giscus supported language code.
+    #    pt-br: pt
+    #  repo: diogoguilhen/ProductCommunity
+    #  repo_id: R_kgDOK1KI9g
+    #  category: Comments
+    #  category_id: DIC_kwDOK1KI9s4Cbd5A
   content_panel:
     repo:
       service: github # github or gitlab.
@@ -124,7 +124,7 @@ hugopress:
         head-end:
           cacheable: true
         # see layouts/partials/hugopress/modules/hb-custom/hooks/body-end.html.
-        body-end:
+        body-end:	
           cacheable: true
         # see layouts/partials/hugopress/modules/hb-custom/hooks/hb-blog-sidebar.html.
         hb-blog-sidebar:

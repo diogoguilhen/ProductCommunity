@@ -13,6 +13,7 @@ require (
 	github.com/hbstack/blog v0.24.1 // indirect
 	github.com/hbstack/blog/modules/breadcrumb v0.1.22 // indirect
 	github.com/hbstack/blog/modules/content-panel v0.1.21 // indirect
+	github.com/hbstack/blog/modules/disqus v0.1.19 // indirect
 	github.com/hbstack/blog/modules/featured-image v0.2.21 // indirect
 	github.com/hbstack/blog/modules/giscus v0.1.23 // indirect
 	github.com/hbstack/blog/modules/heading-sign v0.1.23 // indirect
@@ -22,6 +23,7 @@ require (
 	github.com/hbstack/blog/modules/sidebar/profile v1.1.5 // indirect
 	github.com/hbstack/blog/modules/sidebar/taxonomies v0.3.13 // indirect
 	github.com/hbstack/blog/modules/toc-scrollspy v0.1.20 // indirect
+	github.com/hbstack/blog/modules/utterances v0.1.19 // indirect
 	github.com/hbstack/bootstrap v0.2.0 // indirect
 	github.com/hbstack/breadcrumb v0.5.1 // indirect
 	github.com/hbstack/bs-tooltip v0.1.1 // indirect
@@ -31,11 +33,13 @@ require (
 	github.com/hbstack/docs v0.11.2 // indirect
 	github.com/hbstack/docs/modules/breadcrumb v0.1.9 // indirect
 	github.com/hbstack/docs/modules/content-panel v0.1.8 // indirect
+	github.com/hbstack/docs/modules/disqus v0.1.8 // indirect
 	github.com/hbstack/docs/modules/doc-nav v0.3.4 // indirect
 	github.com/hbstack/docs/modules/featured-image v0.2.8 // indirect
 	github.com/hbstack/docs/modules/giscus v0.1.10 // indirect
 	github.com/hbstack/docs/modules/heading-sign v0.1.9 // indirect
 	github.com/hbstack/docs/modules/toc-scrollspy v0.1.7 // indirect
+	github.com/hbstack/docs/modules/utterances v0.1.8 // indirect
 	github.com/hbstack/featured-image v0.1.2 // indirect
 	github.com/hbstack/footer v0.2.10 // indirect
 	github.com/hbstack/footer/modules/socials v0.2.5 // indirect
@@ -48,6 +52,7 @@ require (
 	github.com/hbstack/header/modules/search v0.1.33 // indirect
 	github.com/hbstack/header/modules/socials v0.1.28 // indirect
 	github.com/hbstack/header/modules/theme-toggle v0.3.1 // indirect
+	github.com/hbstack/header/themes/pills v0.2.18 // indirect
 	github.com/hbstack/heading-sign v0.1.3 // indirect
 	github.com/hbstack/mermaid v0.2.0 // indirect
 	github.com/hbstack/meta/recommended v0.2.10 // indirect
