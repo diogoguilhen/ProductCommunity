@@ -32,6 +32,17 @@ A FAQ simplifica o processo de encontrar informações essenciais sobre a comuni
 4. **Como Reportar Problemas Técnicos?**
 
    * Acesse este [link ](https://github.com/diogoguilhen/ProductCommunity/discussions)e reporte o erro ou problemas.
+5. **Tem outra maneira de submeter artigo?**
+
+   * Nos envie um [e-mail](mailto:contato@diogoguilhen.com.br) com as informações abaixo:
+     * Nome*:
+     * Perfil de midia sociais (linkedin, insta...)*:
+     * Crie uma conta no github e nos envie o link da imagem*
+     * Descrição do cargo*:
+     * Breve biografia*:
+     * Empresa atual :
+     * Envie o artigo no formato WORD para que possamos deixa-lo com a cara de sua preferência
+   * Retornamos em até dois dias úteis com a confirmação ou pedido de ajuste.
 
 ### Suporte Adicional:
 
