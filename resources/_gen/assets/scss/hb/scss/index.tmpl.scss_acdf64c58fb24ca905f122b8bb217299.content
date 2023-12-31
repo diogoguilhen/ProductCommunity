@@ -9553,17 +9553,17 @@ textarea.form-control-lg {
     display: block !important; } }
 
 /*! purgecss end ignore */
+.hb-featured-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 480px; }
+
 /*! purgecss start ignore */
 .hb-progress {
   height: 2px;
   z-index: 1100; }
 
 /*! purgecss end ignore */
-.hb-featured-img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  max-height: 480px; }
-
 .hb-content-panel-wrapper {
   bottom: 20px;
   opacity: 0.875; }
@@ -10005,28 +10005,6 @@ button {
   padding: 0; }
 
 /*! purgecss start end */
-.hb-header-search-icon {
-  color: var(--hb-navbar-color); }
-  @media (min-width: 992px) {
-    .hb-header-search-icon {
-      color: var(--hb-body-color);
-      position: absolute;
-      left: 0.325rem;
-      top: 0.375rem; } }
-.hb-header-search-form {
-  cursor: pointer; }
-  .hb-header-search-form input {
-    caret-color: transparent;
-    cursor: pointer;
-    padding-left: 1.875rem;
-    width: 168px; }
-
-.hb-header-search-keys {
-  top: 0.35rem;
-  right: 0.75rem; }
-  .hb-header-search-keys kbd {
-    font-size: 0.75rem; }
-
 /*! purgecss start ignore */
 @keyframes bp-fadein {
   from {
@@ -10350,8 +10328,35 @@ a img {
   background: var(--hb-primary); }
 
 /*! purgecss end ignore */
+.hb-header-search-icon {
+  color: var(--hb-navbar-color); }
+  @media (min-width: 992px) {
+    .hb-header-search-icon {
+      color: var(--hb-body-color);
+      position: absolute;
+      left: 0.325rem;
+      top: 0.375rem; } }
+.hb-header-search-form {
+  cursor: pointer; }
+  .hb-header-search-form input {
+    caret-color: transparent;
+    cursor: pointer;
+    padding-left: 1.875rem;
+    width: 168px; }
+
+.hb-header-search-keys {
+  top: 0.35rem;
+  right: 0.75rem; }
+  .hb-header-search-keys kbd {
+    font-size: 0.75rem; }
+
 .language-picker-menu {
   --hb-dropdown-min-width: 4rem; }
+
+.hb-footer .hb-social {
+  color: var(--hb-body-color); }
+  .hb-footer .hb-social:hover {
+    color: var(--hb-primary); }
 
 /*! purgecss start ignore */
 .slide {
@@ -10383,11 +10388,6 @@ a img {
     color: var(--hb-primary); }
 
 /*! purgecss end ignore */
-.hb-footer .hb-social {
-  color: var(--hb-body-color); }
-  .hb-footer .hb-social:hover {
-    color: var(--hb-primary); }
-
 .hb-blog-related-posts .hb-blog-post-title-link {
   font-size: 1rem; }
 
